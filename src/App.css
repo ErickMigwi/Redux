@@ -1,0 +1,49 @@
+body{
+  background-color: burlywood;
+}
+#main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#data{
+  display: flex;
+  justify-content: space-around;
+  width: 30vw;
+  
+}
+#display{
+  display: flex;
+
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+button{
+  height: 3vh;
+  width: 5vw;
+}
+#header{
+  display: flex;
+}
+#header input{
+  width: 30vw;
+  height: 5vh;
+  
+}
+#header button{
+  height: 5.7vh;
+}
+#italic{
+  font-style: italic;
+}
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+#delete{
+  display: flex;
+  justify-content: space-around;
+  width: 30vw;
+  align-items: center;
+}
